@@ -6,7 +6,7 @@ body,
 
 body {
   margin: 0;
-  background-color: hsl(180deg, 25%, 92%);
+  background: linear-gradient(0deg, hsl(195, 20%, 86%) 40%, hsl(180, 25%, 92%) 40%) fixed;
 }
 
 *,
