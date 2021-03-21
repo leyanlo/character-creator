@@ -35,3 +35,34 @@
 .controlColumn {
   width: 50%;
 }
+
+@media only screen and (max-width: 768px) {
+  .characterEditor {
+    padding-bottom: 128px;
+  }
+
+  .header {
+    width: auto;
+    padding-bottom: 256px;
+  }
+
+  .characterWrapper {
+    position: absolute;
+    z-index: -1;
+    top: auto;
+    left: 0;
+    height: 500px;
+    margin-bottom: -320px;
+  }
+
+  .controlColumn {
+    position: relative;
+    width: auto;
+    padding-right: 32px;
+    padding-left: 32px;
+    margin-right: -32px;
+    margin-left: -32px;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
